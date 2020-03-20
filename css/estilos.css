@@ -1,0 +1,71 @@
+body {
+    background-size:cover; /*Hace que la imagen ocupe toda la página*/
+    background-image:linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,
+    rgba(0,0,0,0.8) 100%), url(../figuras/mapa.png); /*Transparenta la imagen de fondo*/
+}
+
+h1 {
+    color:white;
+    font-family:cinzel,serif;/*Fuente de letra*/
+    font-size:40pt;/*Tamaño de letra*/
+    text-align:center;/*Alineamiento del texto*/
+    text-decoration:underline overline;/*Líneas por arriba y debajo del texto para crear un título*/
+}
+
+h2 {
+    color:gold;
+    font-family:typewriter;
+    font-size:28pt;
+    font-weight:bold;
+    margin-left:70px;/*Añade margen por la izquierda al texto*/
+}
+
+h3 {
+    color:cadetblue;
+    font-family:verdana;
+    font-size:22pt;
+    margin-left:140px;
+}
+
+p {
+    color:white;
+    font-family:typewriter;
+    font-size:20pt;
+}
+
+@font-face {
+    font-family:typewriter;
+    src:url(Kingthings_Trypewriter_2.ttf);
+}
+
+.bloque {
+    background-color:rgba(176, 173, 164,0.6);
+    color:white;
+    margin:20px;
+    padding:20px;
+    width:50%; 
+}
+
+.letrachica {
+    font-size:16pt
+}
+
+.letramuygrande {
+    font-size:40pt;
+}
+
+.centrotabla {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.colorazul {
+    color:blue;
+    font-size:16pt;
+}
+
+.inicio {
+    font-family:typewriter;
+    color:blue;
+    font-size:13pt;
+}
